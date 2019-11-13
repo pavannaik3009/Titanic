@@ -25,3 +25,9 @@ This dataset contains information about 891 people who were on board the ship wh
 Tool: Python(numpy, pandas, matpotlib.pyplot, seaborn)
 
 Objective: Finding reasons and trends for which people were more likely to survive the wreck than others.
+ 
+#### Plot continuous features
+
+<img width="367" alt="Screen Shot 2019-11-13 at 4 39 48 PM" src="https://user-images.githubusercontent.com/43712046/68810623-40982400-0634-11ea-806f-7f9c1d85216e.png">
+
+<img width="367" alt="Screen Shot 2019-11-13 at 4 40 27 PM" src="https://user-images.githubusercontent.com/43712046/68810641-4f7ed680-0634-11ea-9bfa-ba3ab6dbbc7f.png">
