@@ -41,11 +41,7 @@ Categorical plot ofpeople who survived based on the ticket class
 
 **It can be clearly seen that people with ticket class 1 were more likely to survive than 2 or 3**
 
-Categorical plot ofpeople who survived based on the Number of siblings and spouses aboard
-<img width="717" alt="Screen Shot 2019-11-13 at 4 44 22 PM" src="https://user-images.githubusercontent.com/43712046/68810872-efd4fb00-0634-11ea-94c7-e7a15432e47c.png">
-
-Categorical plot ofpeople who survived based on the Number of parents and children aboard
-<img width="717" alt="Screen Shot 2019-11-13 at 4 44 30 PM" src="https://user-images.githubusercontent.com/43712046/68810867-ec417400-0634-11ea-90e1-76ada810ea01.png">
-
 Combining the SibSp and Parch and, plotting a Catplot of people who survived based on the Family Count
 <img width="717" alt="Screen Shot 2019-11-13 at 4 49 14 PM" src="https://user-images.githubusercontent.com/43712046/68811138-873a4e00-0635-11ea-8773-189b305f019a.png">
+
+**It can be incurred that the lesser the family size the more likely to survive**
