@@ -36,8 +36,11 @@ Histogram for people who survived or did not survived based on the fare price th
 
 #### Plot categorical features
 
-<img width="717" alt="Screen Shot 2019-11-13 at 4 44 30 PM" src="https://user-images.githubusercontent.com/43712046/68810867-ec417400-0634-11ea-90e1-76ada810ea01.png">
+Categorical plot ofpeople who survived based on the ticket class
+<img width="717" alt="Screen Shot 2019-11-13 at 4 44 18 PM" src="https://user-images.githubusercontent.com/43712046/68810877-f2cfeb80-0634-11ea-80fe-0372e3bba2d0.png">
 
+Categorical plot ofpeople who survived based on the Number of siblings and spouses aboard
 <img width="717" alt="Screen Shot 2019-11-13 at 4 44 22 PM" src="https://user-images.githubusercontent.com/43712046/68810872-efd4fb00-0634-11ea-94c7-e7a15432e47c.png">
 
-<img width="717" alt="Screen Shot 2019-11-13 at 4 44 18 PM" src="https://user-images.githubusercontent.com/43712046/68810877-f2cfeb80-0634-11ea-80fe-0372e3bba2d0.png">
+Categorical plot ofpeople who survived based on the Number of parents and children aboard
+<img width="717" alt="Screen Shot 2019-11-13 at 4 44 30 PM" src="https://user-images.githubusercontent.com/43712046/68810867-ec417400-0634-11ea-90e1-76ada810ea01.png">
