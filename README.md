@@ -46,4 +46,4 @@ Combining the SibSp and Parch and, plotting a Catplot of people who survived bas
 
 #### Plot categorical features
 
-<img width="300" alt="Screen Shot 2019-11-13 at 4 55 54 PM" src="https://user-images.githubusercontent.com/43712046/68811515-7807d000-0636-11ea-8641-e38746cc83aa.png"><img width="300" alt="Screen Shot 2019-11-13 at 4 56 20 PM" src="https://user-images.githubusercontent.com/43712046/68811537-85bd5580-0636-11ea-9f90-296cd5bc448a.png"><img width="300" alt="Screen Shot 2019-11-13 at 4 56 45 PM" src="https://user-images.githubusercontent.com/43712046/68811572-95d53500-0636-11ea-9a05-5d4e52c87abb.png">
+<img width="275" alt="Screen Shot 2019-11-13 at 4 55 54 PM" src="https://user-images.githubusercontent.com/43712046/68811515-7807d000-0636-11ea-8641-e38746cc83aa.png"><img width="275" alt="Screen Shot 2019-11-13 at 4 56 20 PM" src="https://user-images.githubusercontent.com/43712046/68811537-85bd5580-0636-11ea-9f90-296cd5bc448a.png"><img width="275" alt="Screen Shot 2019-11-13 at 4 56 45 PM" src="https://user-images.githubusercontent.com/43712046/68811572-95d53500-0636-11ea-9a05-5d4e52c87abb.png">
