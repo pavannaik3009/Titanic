@@ -34,8 +34,6 @@ Histogram for people who survived or did not survived based on their Age
 Histogram for people who survived or did not survived based on the fare price they paid
 <img width="367" alt="Screen Shot 2019-11-13 at 4 40 27 PM" src="https://user-images.githubusercontent.com/43712046/68810641-4f7ed680-0634-11ea-9bfa-ba3ab6dbbc7f.png">
 
-#### Plot categorical features
-
 Categorical plot ofpeople who survived based on the ticket class
 <img width="717" alt="Screen Shot 2019-11-13 at 4 44 18 PM" src="https://user-images.githubusercontent.com/43712046/68810877-f2cfeb80-0634-11ea-80fe-0372e3bba2d0.png">
 
@@ -45,3 +43,7 @@ Combining the SibSp and Parch and, plotting a Catplot of people who survived bas
 <img width="717" alt="Screen Shot 2019-11-13 at 4 49 14 PM" src="https://user-images.githubusercontent.com/43712046/68811138-873a4e00-0635-11ea-8773-189b305f019a.png">
 
 **It can be incurred that the lesser the family size the more likely to survive**
+
+#### Plot categorical features
+
+<img width="500" alt="Screen Shot 2019-11-13 at 4 55 54 PM" src="https://user-images.githubusercontent.com/43712046/68811515-7807d000-0636-11ea-8641-e38746cc83aa.png"><img width="500" alt="Screen Shot 2019-11-13 at 4 56 20 PM" src="https://user-images.githubusercontent.com/43712046/68811537-85bd5580-0636-11ea-9f90-296cd5bc448a.png"><img width="500" alt="Screen Shot 2019-11-13 at 4 56 45 PM" src="https://user-images.githubusercontent.com/43712046/68811572-95d53500-0636-11ea-9a05-5d4e52c87abb.png">
