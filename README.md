@@ -50,6 +50,8 @@ Combining the SibSp and Parch and, plotting a Catplot of people who survived bas
 
 **Female and people with cabins(probably with better class ticket) are more likely to suvive.**
 
+The EDA notebook can be found [here](https://github.com/pavannaik3009/Titanic/blob/master/EDA.ipynb)
+
 ## Data Cleaning
 
 Data cleansing or data cleaning is the process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
@@ -68,7 +70,9 @@ Converting the sex(categorical) to numeric by using dictionary.
 
 Using np.where() we can convert Cabin with Nan values to numeric as where() acts as a if condition (if number present:1, else:0)
 
+The notebook for Data cleaning of Continuous variables can be found [here](https://github.com/pavannaik3009/Titanic/blob/master/DataCleaningCont.ipynb)
 
+The notebook for Data cleaning of Categorical variables can be found [here](https://github.com/pavannaik3009/Titanic/blob/master/DataCleaningCat.ipynb)
 
 ## License
 
