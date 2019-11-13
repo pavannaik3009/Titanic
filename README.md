@@ -65,7 +65,8 @@ SibSp and Parch individually do not give meaningful insights and also, are relat
 ### Categorical features
 
 Converting the sex(categorical) to numeric by using dictionary.
-Uing np.where() we can convert Cabin with Nan values to numeric as where() acts as a if condition (if number present:1, else:0)
+
+Using np.where() we can convert Cabin with Nan values to numeric as where() acts as a if condition (if number present:1, else:0)
 
 
 
