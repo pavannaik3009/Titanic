@@ -54,12 +54,20 @@ Combining the SibSp and Parch and, plotting a Catplot of people who survived bas
 
 Data cleansing or data cleaning is the process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
 
+PassengerID and Name are irrelevant and can be dropped.
+
+### Continuous Features
 A naive approach for missing values is to substitute the missing values with the average of the values. 
 Age has 177 missing values and we can use fillna() from the pandas library and fill the missing values of the age by calculating the average Age of people. 
 
-SibSp and Parch individually do not give meaningful insights and also, are related to the size of a family. Thus, we can combine these two features to get the Family count. 
+SibSp and Parch individually do not give meaningful insights and also, are related to the size of a family. Thus, we can combine these two features to get the Family count. Thus, dropping the SibSp and Parch feature.
 
-PassengerID and Name are irrelevant and can be dropped.
+### Categorical features
+
+Converting the sex(categorical) to numeric by using dictionary.
+Uing np.where() we can convert Cabin with Nan values to numeric as where() acts as a if condition (if number present:1, else:0)
+
+
 
 ## License
 
