@@ -74,6 +74,20 @@ The notebook for Data cleaning of Continuous variables can be found [here](https
 
 The notebook for Data cleaning of Categorical variables can be found [here](https://github.com/pavannaik3009/Titanic/blob/master/DataCleaningCat.ipynb)
 
+## Splitting Data
+Tool: Python(Scikitlearn, Pandas)
+
+Training dataset: To learn the general pattern
+
+Validation set: To select the best model (Optimal algorithm and hyperparameter settings)
+
+Tesing set: Data for unbiased evaluation
+
+<img width="896" alt="Screen Shot 2019-11-13 at 5 38 15 PM" src="https://user-images.githubusercontent.com/43712046/68813755-6de8d000-063c-11ea-8a66-cb58787d3ad9.png">
+
+I have divided the dataset into 60%, 20%, 20% for training, validation and test.
+The notebook can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/DataSplit.ipynb)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
