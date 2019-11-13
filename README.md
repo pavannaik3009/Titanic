@@ -50,8 +50,16 @@ Combining the SibSp and Parch and, plotting a Catplot of people who survived bas
 
 **Female and people with cabins(probably with better class ticket) are more likely to suvive.**
 
+## Data Cleaning
 
+Data cleansing or data cleaning is the process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
 
+A naive approach for missing values is to substitute the missing values with the average of the values. 
+Age has 177 missing values and we can use fillna() from the pandas library and fill the missing values of the age by calculating the average Age of people. 
+
+SibSp and Parch individually do not give meaningful insights and also, are related to the size of a family. Thus, we can combine these two features to get the Family count. 
+
+PassengerID and Name are irrelevant and can be dropped.
 
 ## License
 
