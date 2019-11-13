@@ -88,6 +88,15 @@ Tesing set: Data for unbiased evaluation
 I have divided the dataset into 60%, 20%, 20% for training, validation and test.
 The notebook can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/DataSplit.ipynb)
 
+## K-fold cross validation
+
+The data is divided into k-subsets and holdout is repeated k times. Each time k-subsets are used to test, k-1 subsets are combined to train. The k-fold cross validation is done on the training set. 
+
+The scores generated after 5-fold Cross validation are: 
+<img width="506" alt="Screen Shot 2019-11-13 at 5 48 31 PM" src="https://user-images.githubusercontent.com/43712046/68814230-dd12f400-063d-11ea-9ad3-70036bb29bbe.png">
+
+I have used **Random Forest Classifier** to fit a number of decision tree classifiers on various sub-samples of the dataset and use averaging to improve the predictive accuracy and control over-fitting.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
