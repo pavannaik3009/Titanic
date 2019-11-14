@@ -28,10 +28,10 @@ Objective: Finding reasons and trends for which people were more likely to survi
  
 #### Plot continuous features
 
-Histogram for people who survived or did not survived based on their Age
+Histogram for people who survived or did not survive based on their Age
 <img width="500" alt="Screen Shot 2019-11-13 at 4 39 48 PM" src="https://user-images.githubusercontent.com/43712046/68810623-40982400-0634-11ea-806f-7f9c1d85216e.png">
 
-Histogram for people who survived or did not survived based on the fare price they paid
+Histogram for people who survived or did not survive based on the fare price they paid
 <img width="500" alt="Screen Shot 2019-11-13 at 4 40 27 PM" src="https://user-images.githubusercontent.com/43712046/68810641-4f7ed680-0634-11ea-9bfa-ba3ab6dbbc7f.png">
 
 Categorical plot ofpeople who survived based on the ticket class
