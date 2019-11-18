@@ -97,7 +97,7 @@ The notebook can be found [here.](https://github.com/pavannaik3009/Titanic/blob/
 ### Logistic Regression
 **Regression** is a process for estimating the relationships among variables (often to make a prediction about some outcome). **Logistic Regression** is used to build a model with Binary target. I n this case the target is to 'survived' and the model fits data to predict a person survived or not. 
 
-### Hyperparameters
+#### Hyperparameters
 
 **C** is a regularization parameter in Logistic regression that controls how closely the model fits to the trianing data. If c tends to infinity then, it is a low regularization with high complexity and the model is more likely to overfit. Whereas if C tends to zero the it is a high regularization with low complexity and the model is more likely to underfit. 
 
@@ -105,10 +105,25 @@ Therefore, tuning this hyperparameter we get the best model with **C** = 1 with 
 
 <img width="307" alt="Screen Shot 2019-11-18 at 1 27 48 PM" src="https://user-images.githubusercontent.com/43712046/69083191-406aa080-0a07-11ea-9d7e-c0b528823079.png">
 
+The notebook for Logistic regression can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/LogReg.ipynb)
 
+### Support Vector Machine
 
+**SVM** is a classifier that finds an optimal hyperplane that maximizes the margin between two classes. 
 
+**Goal:** Maximize the length of the support vector (the perpendicular line from the decision boundary to the closest points in both classes).
 
+#### Hyperparameters
+
+**C** is a regularization parameter. As C tends to infinity, it is a low regularization with large penalty for misclassification in training. If C tends to zero, it is a high regularization with small penalty for misclassification in training. 
+
+**Kernel trick/Kernel method** is a process that transforms data that is not linearly seperable in n-dimensional space to a higher dimension where it is linearly seperable. 
+
+Therefore, tuning these hyperparameters we get the best model with **C** = 0.1 and **linear** kernel.
+
+<img width="452" alt="Screen Shot 2019-11-18 at 1 39 17 PM" src="https://user-images.githubusercontent.com/43712046/69083995-e2d75380-0a08-11ea-93ae-b1d6f066cf61.png">
+
+The notebook for SVM can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/SVM.ipynb)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
