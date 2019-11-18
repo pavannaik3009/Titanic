@@ -101,7 +101,7 @@ The notebook can be found [here.](https://github.com/pavannaik3009/Titanic/blob/
 
 **C** is a regularization parameter in Logistic regression that controls how closely the model fits to the trianing data. If c tends to infinity then, it is a low regularization with high complexity and the model is more likely to overfit. Whereas if C tends to zero the it is a high regularization with low complexity and the model is more likely to underfit. 
 
-Therefore, tuning this hyperparameter we get the best model with **C** = 1 with an accuracy of 79.8%.
+Therefore, tuning this hyperparameter we get the best model with **C** = 1 with an accuracy of **79.8%**.
 
 <img width="307" alt="Screen Shot 2019-11-18 at 1 27 48 PM" src="https://user-images.githubusercontent.com/43712046/69083191-406aa080-0a07-11ea-9d7e-c0b528823079.png">
 
@@ -119,7 +119,7 @@ The notebook for Logistic regression can be found [here.](https://github.com/pav
 
 **Kernel trick/Kernel method** is a process that transforms data that is not linearly seperable in n-dimensional space to a higher dimension where it is linearly seperable. 
 
-Therefore, tuning these SVM hyperparameters we get the best model with **C** = 0.1 and **linear** kernel with an accuracy of 79.6%.
+Therefore, tuning these SVM hyperparameters we get the best model with **C** = 0.1 and **linear** kernel with an accuracy of **79.6%**.
 
 <img width="452" alt="Screen Shot 2019-11-18 at 1 39 17 PM" src="https://user-images.githubusercontent.com/43712046/69083995-e2d75380-0a08-11ea-93ae-b1d6f066cf61.png">
 
@@ -139,7 +139,7 @@ The notebook for SVM can be found [here.](https://github.com/pavannaik3009/Titan
 
 **Learning Rate** tells how quickly and whether or not the algorithm will find the optimal solution.
 
-Therefore, tuning these MLP hyperparameters we get the best model with tanH activation function, learning rate of 100, and a learning rate of invscaling with an accuracy of 80.9%. 
+Therefore, tuning these MLP hyperparameters we get the best model with tanH activation function, learning rate of 100, and a learning rate of invscaling with an accuracy of **80.9%**. 
 
 <img width="937" alt="Screen Shot 2019-11-18 at 1 42 12 PM" src="https://user-images.githubusercontent.com/43712046/69084179-4c576200-0a09-11ea-98bb-dbcabdc7794a.png">
 
