@@ -119,11 +119,32 @@ The notebook for Logistic regression can be found [here.](https://github.com/pav
 
 **Kernel trick/Kernel method** is a process that transforms data that is not linearly seperable in n-dimensional space to a higher dimension where it is linearly seperable. 
 
-Therefore, tuning these hyperparameters we get the best model with **C** = 0.1 and **linear** kernel.
+Therefore, tuning these SVM hyperparameters we get the best model with **C** = 0.1 and **linear** kernel.
 
 <img width="452" alt="Screen Shot 2019-11-18 at 1 39 17 PM" src="https://user-images.githubusercontent.com/43712046/69083995-e2d75380-0a08-11ea-93ae-b1d6f066cf61.png">
 
 The notebook for SVM can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/SVM.ipynb)
+
+### Multi-layer perceptron
+
+**Multi-layer perceptron** is a classic feed forward Artificial Neural Network. It is a connected series of node (in the form of DAG) where each node represents a function or a model.
+
+<img width="1240" alt="Screen Shot 2019-11-17 at 6 22 46 PM" src="https://user-images.githubusercontent.com/43712046/69084175-482b4480-0a09-11ea-924f-ddb6a18f3801.png">
+
+#### Hyperparameters
+
+**Activation Function** tells the type of non-linearity (sigmoid, tanH, ReLU) introduced in the model. 
+
+**Hidden layer size** tells how many hidden layers and how many nodes in each layer is used to fit. 
+
+**Learning Rate** tells how quickly and whether or not the algorithm will find the optimal solution.
+
+Therefore, tuning these MLP hyperparameters we get the best model with tanH activation function, learning rate of 100, and a learning rate of invscaling.
+
+<img width="937" alt="Screen Shot 2019-11-18 at 1 42 12 PM" src="https://user-images.githubusercontent.com/43712046/69084179-4c576200-0a09-11ea-98bb-dbcabdc7794a.png">
+
+The notebook for MLP can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/MLP.ipynb)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
