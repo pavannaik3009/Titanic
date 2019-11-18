@@ -92,6 +92,22 @@ The notebook can be found [here.](https://github.com/pavannaik3009/Titanic/blob/
 
 **Cross Validation** is a very useful technique for assessing the performance of machine learning models. It helps in knowing how the machine learning model would generalize to an independent data set. k-fold cross-validation randomly divides the data into k blocks of roughly equal size. Each of the blocks is left out in turn and the other k-1 blocks are used to train the model.
 
+## Model
+
+### Logistic Regression
+**Regression** is a process for estimating the relationships among variables (often to make a prediction about some outcome). **Logistic Regression** is used to build a model with Binary target. I n this case the target is to 'survived' and the model fits data to predict a person survived or not. 
+
+### Hyperparameters
+
+**C** is a regularization parameter in Logistic regression that controls how closely the model fits to the trianing data. If c tends to infinity then, it is a low regularization with high complexity and the model is more likely to overfit. Whereas if C tends to zero the it is a high regularization with low complexity and the model is more likely to underfit. 
+
+Therefore, tuning this hyperparameter we get the best model with **C** = 1.
+
+<img width="307" alt="Screen Shot 2019-11-18 at 1 27 48 PM" src="https://user-images.githubusercontent.com/43712046/69083191-406aa080-0a07-11ea-9d7e-c0b528823079.png">
+
+
+
+
 
 ## License
 
