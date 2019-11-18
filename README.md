@@ -145,6 +145,20 @@ Therefore, tuning these MLP hyperparameters we get the best model with tanH acti
 
 The notebook for MLP can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/MLP.ipynb)
 
+### Random Forest Classifier
+
+**Random Forest** is a ensemble method that merges a collection of independent decision trees to get a more accurate and stable prediction. 
+
+#### Hyperparameters
+
+**maximum depth** controls how deep each individual tree can go.
+
+**n estimator** controls how many individual trees will be built. 
+
+Therefore, tuning these RF hyperparameters we get the best model with **max depth** of 8 and 5 **estimators** with an accuracy of **83.1%**. 
+
+<img width="560" alt="Screen Shot 2019-11-18 at 3 34 25 PM" src="https://user-images.githubusercontent.com/43712046/69102988-bd0e7680-0a29-11ea-8c5f-2e0603f58f43.png">
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
