@@ -101,7 +101,7 @@ The notebook can be found [here.](https://github.com/pavannaik3009/Titanic/blob/
 
 **C** is a regularization parameter in Logistic regression that controls how closely the model fits to the trianing data. If c tends to infinity then, it is a low regularization with high complexity and the model is more likely to overfit. Whereas if C tends to zero the it is a high regularization with low complexity and the model is more likely to underfit. 
 
-Therefore, tuning this hyperparameter we get the best model with **C** = 1.
+Therefore, tuning this hyperparameter we get the best model with **C** = 1 with an accuracy of 79.8%.
 
 <img width="307" alt="Screen Shot 2019-11-18 at 1 27 48 PM" src="https://user-images.githubusercontent.com/43712046/69083191-406aa080-0a07-11ea-9d7e-c0b528823079.png">
 
