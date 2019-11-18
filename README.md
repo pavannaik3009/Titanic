@@ -88,6 +88,9 @@ Tesing set: Data for unbiased evaluation
 I have divided the dataset into 60%, 20%, 20% for training, validation and test.
 The notebook can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/DataSplit.ipynb)
 
+## k-fold cross-validation 
+
+**Cross Validation** is a very useful technique for assessing the performance of machine learning models. It helps in knowing how the machine learning model would generalize to an independent data set. k-fold cross-validation randomly divides the data into k blocks of roughly equal size. Each of the blocks is left out in turn and the other k-1 blocks are used to train the model.
 
 
 ## License
