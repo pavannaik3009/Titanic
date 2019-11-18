@@ -178,13 +178,17 @@ Therefore, tuning these GB hyperparameters we get the best model with a **learni
 
 The notebook for Gradient Boosted Trees can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/GradientBoosting.ipynb)
 
-## Best Model (Validation set)
+## Best Model (Validation)
 
 The best model of the different algorithms built can be tested on the validation test and the accuracy, precision, recall score and the latency can be used to determine the best model based on our requirement.
 
 <img width="674" alt="Screen Shot 2019-11-18 at 5 37 00 PM" src="https://user-images.githubusercontent.com/43712046/69103586-699d2800-0a2b-11ea-8c42-ed38c29979b1.png">
 
 Thus, from the above results it can be concurred that Gradient Boosting has a good accuracy and precision with very less latency and hence can be used for testing. 
+
+## Testing
+
+On implementing Gradient boosting on the titanic test set we get an accuracy of **81.5%** with **80.8%** precision. 
 
 ## License
 
