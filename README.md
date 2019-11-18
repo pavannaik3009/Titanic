@@ -159,6 +159,25 @@ Therefore, tuning these RF hyperparameters we get the best model with **max dept
 
 <img width="560" alt="Screen Shot 2019-11-18 at 3 34 25 PM" src="https://user-images.githubusercontent.com/43712046/69102988-bd0e7680-0a29-11ea-8c5f-2e0603f58f43.png">
 
+The notebook for Random Forest Classification can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/RandomForest.ipynb)
+
+### Gradient Boosted Trees (Boosting)
+
+**Boosting** is an ensemble method that aggregates a number of weak models to create one strong model. Boosting iteratively builds weak models where each model learns from the mistakes of the previous models.
+
+#### Hyperparameters
+
+**n estimators** controls how many individual trees will be built. 
+
+**maximum depth** controls how deep each individual tree can go.
+
+**Learning Rate** facilitates how quickly and whether or not the algorithm will find the optimal solution.
+
+Therefore, tuning these GB hyperparameters we get the best model with a **learning rate** of 0.01, **max depth** of 3 and 500 **estimators** with an accuracy of **84.1%**. 
+<img width="712" alt="Screen Shot 2019-11-18 at 4 30 35 PM" src="https://user-images.githubusercontent.com/43712046/69103308-ae748f00-0a2a-11ea-9a8f-2a4eb61afe95.png">
+
+The notebook for Gradient Boosted Trees can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/GradientBoosting.ipynb)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
