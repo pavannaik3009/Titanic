@@ -190,6 +190,7 @@ Thus, from the above results it can be concurred that Gradient Boosting has a go
 
 On implementing Gradient boosting on the titanic test set with a **learning rate** of 0.01, **max depth** of 3 and 500 **estimators** we get an accuracy of **81.5%** with **80.8%** precision. 
 
+The jupyter notebook for validation and testing can be found [here.](https://github.com/pavannaik3009/Titanic/blob/master/Final.ipynb)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
