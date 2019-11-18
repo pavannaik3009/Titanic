@@ -133,11 +133,11 @@ The notebook for SVM can be found [here.](https://github.com/pavannaik3009/Titan
 
 #### Hyperparameters
 
-**Activation Function** tells the type of non-linearity (sigmoid, tanH, ReLU) introduced in the model. 
+**Activation Function** facilitates the type of non-linearity (sigmoid, tanH, ReLU) introduced in the model. 
 
-**Hidden layer size** tells how many hidden layers and how many nodes in each layer is used to fit. 
+**Hidden layer size** facilitates how many hidden layers and how many nodes in each layer is used to fit. 
 
-**Learning Rate** tells how quickly and whether or not the algorithm will find the optimal solution.
+**Learning Rate** facilitates how quickly and whether or not the algorithm will find the optimal solution.
 
 Therefore, tuning these MLP hyperparameters we get the best model with tanH activation function, learning rate of 100, and a learning rate of invscaling with an accuracy of **80.9%**. 
 
