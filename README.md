@@ -188,7 +188,7 @@ Thus, from the above results it can be concurred that Gradient Boosting has a go
 
 ## Testing
 
-On implementing Gradient boosting on the titanic test set we get an accuracy of **81.5%** with **80.8%** precision. 
+On implementing Gradient boosting on the titanic test set with a **learning rate** of 0.01, **max depth** of 3 and 500 **estimators** we get an accuracy of **81.5%** with **80.8%** precision. 
 
 ## License
 
